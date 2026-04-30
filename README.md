@@ -104,14 +104,10 @@ curl http://localhost:11434/api/chat -d '{
 }'
 ```
 
-See the [API documentation](./docs/api.md) for all endpoints.
+### List running models
 
-## Community & Support
+```bash
+curl http://localhost:11434/api/ps
+```
 
-- [Discord](https://discord.gg/ollama)
-- [GitHub Issues](https://github.com/ollama/ollama/issues)
-- [Documentation](./docs)
-
-## License
-
-[MIT](LICENSE)
+See the [API documentation](./docs/api.md)
