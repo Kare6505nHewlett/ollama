@@ -110,8 +110,10 @@ curl http://localhost:11434/api/chat -d '{
 curl http://localhost:11434/api/ps
 ```
 
-### List local models
+### List available local models
 
 ```bash
 curl http://localhost:11434/api/tags
 ```
+
+> **Personal note:** I use these two endpoints constantly when scripting — `api/ps` shows what's currently loaded in memory, while `api/tags` lists everything you've pulled locally.
