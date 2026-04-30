@@ -110,4 +110,8 @@ curl http://localhost:11434/api/chat -d '{
 curl http://localhost:11434/api/ps
 ```
 
-See the [API documentation](./docs/api.md)
+### List available models
+
+```bash
+curl http://localhost:11434/api/tags
+```
